@@ -25,6 +25,7 @@ public class ColourChanger : MonoBehaviour {
         if (player.gameObject.tag == "Player")
         {
             Colour += 0.01f;
+            print(Colour);
         }
         if (Colour > 1.5f)
         {
