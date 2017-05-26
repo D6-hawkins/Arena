@@ -15,7 +15,7 @@ public class KillSwitch : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider Player)
     {
-        if (Player.gameObject.name == "Player1" || Player.gameObject.name == "Player2")
+        if (Player.gameObject.tag == "Player")
         {
             print(Player.name);
             print("Is dead.");
